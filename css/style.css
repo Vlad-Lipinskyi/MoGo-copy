@@ -19,6 +19,13 @@
     line-height: 1.23;
     color: #95E1D3;
 }
+
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
 .header-link {
     font-weight: 400;
     font-size: 14px;
@@ -99,3 +106,5 @@
 .author {
     color: #F38181;
 }
+
+
