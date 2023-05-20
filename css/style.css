@@ -1,110 +1,161 @@
 * {
-    font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
-.container{
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: solid red;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: solid red;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header {
-    padding: 17px;
+  padding: 17px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-logo {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.23;
-    color: #95E1D3;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.23;
+  color: #95e1d3;
 }
-
-.header-container{
-    display: flex;
-    align-items: center;
-    gap: 55px;
+.header-list {
+  display: flex;
+  gap: 55px;
 }
-
 .header-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.21;
-    color: #95E1D3;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #95e1d3;
+}
+.hero-subtitle {
+  margin-bottom: 20px;
 }
 .subtitle {
-    font-family: 'Kaushan Script';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.46;
-    color: #333333;
+  font-family: "Kaushan Script";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.46;
+  color: #333333;
+  text-align: center;
+}
+.hero-title {
+  margin-bottom: 109px;
 }
 .title {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.23;
-    font-variant: all-small-caps;
-    color: #333333;
+  outline: solid red;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.23;
+  font-variant: all-small-caps;
+  color: #333333;
+  text-align: center;
 }
 .hero {
-    padding-top: 68px;
+  padding-top: 68px;
+}
+
+.hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 100px;
+}
+.hero-item {
+  width: 328px;
+  display: flex;
+}
+.hero-img {
+  width: 37px;
+  height: 37px;
+  flex-shrink: 1;
+  display: block;
+  margin-right: 20px;
 }
 .hero-name {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.21;
-    font-variant: small-caps;
-    color: #333333;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  font-variant: small-caps;
+  color: #333333;
+  margin-bottom: 20px;
 }
 .hero-text {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.46;
-    color: #B6B6B6;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.46;
+  color: #b6b6b6;
 }
 .team {
-    padding-top: 100px;
+  padding-top: 100px;
+}
+.team-title {
+  margin-bottom: 85px;
+}
+.team-subtitle {
+  margin-bottom: 17px;
 }
 .team-name {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.21;
-    text-align: center;
-    font-variant: all-small-caps;
-    color: #333333;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+  font-variant: all-small-caps;
+  color: #333333;
+}
+.team-list {
+  display: flex;
 }
 .team-description {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    color: #B6B6B6;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #b6b6b6;
+}
+.team-text {
+  margin-bottom: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: solid red;
+  max-width: 1104px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #b6b6b6;
 }
 .footer-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #333333;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #333333;
 }
 .footer-input::placeholder {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    color: #B6B6B6;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  color: #b6b6b6;
 }
 .footer-button {
-    background-color: #95E1D3;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.21;
-    text-align: center;
-    font-variant: all-small-caps;
-    color: #FFFFFF;
+  background-color: #95e1d3;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+  font-variant: all-small-caps;
+  color: #ffffff;
 }
 .author {
-    color: #F38181;
+  color: #f38181;
 }
-
-
